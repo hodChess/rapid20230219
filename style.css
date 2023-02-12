@@ -35,7 +35,10 @@ a{
     width: 40px;
     margin-right: 15px;
 }
-
+.linkTG{
+    display: flex;
+    align-items: center;
+}
 /*Таблица*/
 .tbDiv{
     overflow-x: auto;
