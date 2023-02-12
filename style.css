@@ -25,8 +25,9 @@ a{
 }
 .head{
     margin: 30px auto;
-    font-family: "Zona Pro ExtraBold";
+    font-family: "Zona Pro";
     font-size: 40px;
+    font-weight: 700    ;
 }
 .btnLink{
     width: 270px;
@@ -53,7 +54,8 @@ table{
     border: 0.7px solid #F0F0F0;
 }
 .thead>td{
-    font-family: "Zona Pro ExtraBold";
+    font-family: "Zona Pro";
+    font-weight: 700;
 }
 td{
     border: 0.5px dashed #c5c5c5;
@@ -63,14 +65,14 @@ td{
     text-align: center;
 }
 
-
 /*ADAPTIVE*/
 @media (max-width: 770px) {
-    .hod{
+    .hod {
         margin: 0 20px;
     }
     .head{
         font-size: 25px;
+        margin: 10px auto;
     }
     td, p, a, div {
         font-size: 12px;
