@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Zona Pro";
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #F0F0F0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hod{
+    margin: 0 100px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo__item{
+    width: 200px;
+    margin-top: 50px;
+}
+.head{
+    margin: 30px auto;
+    font-family: "Zona Pro ExtraBold";
+    font-size: 40px;
+}
+.btnLink{
+    width: 270px;
+    padding: 7px 15px;
+    margin: 30px auto 50px auto;
+    background-color: #EEBA2C;
+    border-radius: 50px;
+}
+.iconTG{
+    width: 40px;
+    margin-right: 15px;
+}
+.linkTG{
+    display: flex;
+    align-items: center;
+}
+
+/*Таблица*/
+.tbDiv{
+    overflow-x: auto;
+}
+table{
+    border-collapse:collapse;
+    border: 0.7px solid #F0F0F0;
+}
+.thead>td{
+    font-family: "Zona Pro ExtraBold";
+}
+td{
+    border: 0.5px dashed #c5c5c5;
+    padding: 5px;
+}
+.tbRait{
+    text-align: center;
+}
+
+
+/*ADAPTIVE*/
+@media (max-width: 770px) {
+    .hod{
+        margin: 0 20px;
+    }
+    .head{
+        font-size: 25px;
+    }
+    td, p, a, div {
+        font-size: 12px;
+    }
+}
