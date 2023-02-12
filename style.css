@@ -68,6 +68,9 @@ td{
     .hod {
         margin: 0 20px;
     }
+    .logo__item{
+        margin: 20px;
+    }
     .head{
         font-size: 25px;
         margin: 10px auto;
@@ -88,13 +91,13 @@ td{
     }
     .head{
         font-size: 20px;
-        margin: 5px auto;
+        margin: 20px auto;
     }
     td, p, a, div {
         font-size: 10px;
     }
     .btnLink{
-    margin: 5px auto 10px auto;
+    margin: 20px auto 10px auto;
     background-color: #EEBA2C;
     border-radius: 50px;
 }
