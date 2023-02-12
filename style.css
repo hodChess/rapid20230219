@@ -75,4 +75,9 @@ td{
     td, p, a, div {
         font-size: 12px;
     }
+    .btnLink{
+    margin: 15px auto 20px auto;
+    background-color: #EEBA2C;
+    border-radius: 50px;
+}
 }
