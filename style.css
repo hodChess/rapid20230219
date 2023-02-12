@@ -15,10 +15,6 @@ a{
 .hod{
     margin: 0 100px;
 }
-.logo{
-    display: flex;
-    justify-content: center;
-}
 .logo__item{
     width: 200px;
     margin-top: 50px;
@@ -38,10 +34,6 @@ a{
 .iconTG{
     width: 40px;
     margin-right: 15px;
-}
-.linkTG{
-    display: flex;
-    align-items: center;
 }
 
 /*Таблица*/
@@ -69,7 +61,7 @@ td{
         margin: 0 20px;
     }
     .logo__item{
-        margin: 20px;
+        margin-top: 20px;
     }
     .head{
         font-size: 25px;
