@@ -8,6 +8,13 @@ body{
     width: 100%;
     background-color: #F0F0F0;
 }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #eeba2c;    /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
+  border: 3px solid #f0f0f0;  /* padding вокруг плашки */
+}
+
 a{
     text-decoration: none;
     color: black;
