@@ -9,7 +9,7 @@ body{
     background-color: #F0F0F0;
 }
 ::-webkit-scrollbar {
-    width: 24px; /* ширина для вертикального скролла */
+    width: 10px; /* ширина для вертикального скролла */
     height: 8px; /* высота для горизонтального скролла */
     background-color: #f0f0f0;
 }
